@@ -3,7 +3,7 @@
 <!doctype html>
 <html>
   <head>
-    <a href="/">Job Boards</a>
+
     <title>Jobs Board</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/bulma.min.css')}}">
     <link rel="stylesheet" href="{{url_for('static', filename='css/app.css')}}">
@@ -12,6 +12,7 @@
   <body>
     <div class="container top">
       <div class="content">
+        <a href="/">Job Boards</a>
         {% block content %}
         {% endblock %}
       </div>
